@@ -2,7 +2,7 @@
 # Copyright (c) 2019-2023 The Regents of the University of California
 
 # FPGA settings
-FPGA_PART = xc7vx690tffg1761-3
+FPGA_PART = xc7z035ffg900-2
 FPGA_TOP = fpga
 FPGA_ARCH = virtex7
 

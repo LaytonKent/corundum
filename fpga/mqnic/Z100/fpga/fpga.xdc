@@ -1,5 +1,5 @@
 # XDC constraints for the NetFPGA SUME
-# part: xc7vx690tffg1761-3
+# part: xc7z035ffg900-2
 
 # General configuration
 set_property CFGBVS GND                           [current_design]
