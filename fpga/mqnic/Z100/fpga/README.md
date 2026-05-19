@@ -1,10 +1,10 @@
-# Corundum mqnic for NetFPGA SUME
+# Corundum mqnic for Alientek Z100
 
 ## Introduction
 
-This design targets the NetFPGA SUME FPGA board.
+This design targets the Alientek Z100 FPGA board.
 
-* FPGA: XC7VX690T-3FFG1761I
+* FPGA: XC7Z035FFG900-2
 * PHY: 10G BASE-R PHY IP core and internal GTH transceiver
 
 ## Quick start

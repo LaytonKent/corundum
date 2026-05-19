@@ -1,4 +1,4 @@
-# XDC constraints for the NetFPGA SUME
+# XDC constraints for the Alientek Z100
 # part: xc7z035ffg900-2
 
 # General configuration
