@@ -4,7 +4,7 @@
 # FPGA settings
 FPGA_PART = xc7z035ffg900-2
 FPGA_TOP = fpga
-FPGA_ARCH = virtex7
+FPGA_ARCH = zynq7
 
 # Files for synthesis
 SYN_FILES = rtl/fpga.v
@@ -138,7 +138,7 @@ XDC_FILES += ../../../common/syn/vivado/mqnic_ptp_clock.tcl
 XDC_FILES += ../../../common/syn/vivado/mqnic_rb_clk_info.tcl
 
 # IP
-IP_TCL_FILES = ip/pcie3_7x_0.tcl
+IP_TCL_FILES = ip/pcie_7x_0.tcl
 IP_TCL_FILES += ip/ten_gig_eth_pcs_pma_0.tcl
 IP_TCL_FILES += ip/ten_gig_eth_pcs_pma_1.tcl
 

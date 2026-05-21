@@ -157,7 +157,7 @@ dict set params STAT_INC_WIDTH "24"
 dict set params STAT_ID_WIDTH "10"
 
 # PCIe IP core settings
-set pcie [get_ips pcie3_7x_0]
+set pcie [get_ips pcie_7x_0]
 
 # Internal interface settings
 dict set params AXIS_PCIE_DATA_WIDTH [regexp -all -inline -- {[0-9]+} [get_property CONFIG.axisten_if_width $pcie]]
